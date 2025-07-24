@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Shubham Desai">
+    <meta name="description" content="HTML Tags Showcase">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Showcase</title>
+    <base href="/" target="_blank">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My HTML Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#table">Table</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p><strong>Name:</strong> <em>Shubham Desai</em></p>
+            <p>I am currently studying <abbr title="Bachelor of Technology">B.Tech</abbr> in IT.</p>
+            <address>
+                Email: <a href="mailto:desaishubham696@gmail.com">desaishubham696@gmail.com</a><br>
+                Phone: <a href="tel:+918424033009">8424033009</a>
+            </address>
+            <hr>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>JSPM RSCOE, Pune</li>
+                <li>CGPA: <mark>9.24</mark></li>
+            </ul>
+            <details>
+                <summary>More Details</summary>
+                <p>Studying Web Development and Java DSA</p>
+            </details>
+            <hr>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ol>
+                <li>C Language</li>
+                <li>Java Basics</li>
+                <li>HTML</li>
+                <li>Git & GitHub</li>
+            </ol>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Markup language for web pages</dd>
+                <dt>Java</dt>
+                <dd>Object-Oriented Programming Language</dd>
+            </dl>
+            <hr>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <img src="https://via.placeholder.com/200" alt="My Image" width="200">
+            <figure>
+                <figcaption>Sample Audio</figcaption>
+                <audio controls>
+                    <source src="sample.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </figure>
+            <figure>
+                <figcaption>Sample Video</figcaption>
+                <video width="320" height="240" controls>
+                    <source src="sample.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </figure>
+            <hr>
+        </section>
+
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female<br><br>
+
+                <label>Languages:</label>
+                <input type="checkbox" name="lang" value="html"> HTML
+                <input type="checkbox" name="lang" value="java"> Java<br><br>
+
+                <label for="college">College:</label>
+                <select id="college" name="college">
+                    <option value="rscoe">JSPM RSCOE</option>
+                    <option value="vit">VIT Pune</option>
+                </select><br><br>
+
+                <textarea placeholder="Write your message..."></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <input type="reset">
+            </form>
+            <hr>
+        </section>
+
+        <section id="table">
+            <h2>Timetable</h2>
+            <table border="1">
+                <caption>Class Schedule</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Web Development</td>
+                        <td>9 AM - 11 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Java DSA</td>
+                        <td>11 AM - 1 PM</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">This is a sample weekly schedule</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Quote of the Day</h3>
+        <blockquote cite="https://www.brainyquote.com/">
+            “The best way to get started is to quit talking and begin doing.”
+        </blockquote>
+        <pre>
+Code Example:
+for (int i = 0; i < 5; i++) {
+    System.out.println("Hello");
+}
+        </pre>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Shubham Desai | All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
