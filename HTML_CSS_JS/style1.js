@@ -41,3 +41,31 @@ for(let i=0;i<arr.length;i++){
     }
 }
 console.log("MAX is ",max);
+
+
+let digit = prompt("Enter Maximum range");
+
+let random = Math.floor(Math.random()*digit)+1;
+
+
+
+while(true){
+    let guess = prompt("Enter no for guess");
+    if(guess == "quit"){
+    console.log("Exiting the game");
+    break;
+    }
+
+    if(guess == random){
+    console.log("Number is ",random, "Congrats you guess Right!!");
+}else if(guess>random){
+    console.log("No is Bigger than random");
+}else{
+    console.log("Number is Smaller then random");
+}
+
+
+
+
+}
+
